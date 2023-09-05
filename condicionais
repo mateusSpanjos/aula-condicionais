@@ -1,0 +1,114 @@
+// CONDICIONAIS
+/*
+let condicao1 = true
+if (condicao1) {
+    console.log ('Entrei no if 1!')
+
+}
+
+let condicao2 = false
+if (condicao2) {
+    console.log ('Entrei no if 2!')
+
+}
+let num1 = 10
+let num2 = 10
+
+let condicao = (num1 === num2)
+if (condicao) {
+    console.log ('sucesso')
+}
+
+
+let num1 = Number (prompt("digite um numero")) 
+let num2 = Number (prompt("digite outro numero"))
+
+let condicao = (num1 === num2)
+
+if (condicao) {
+    console.log ('sucesso')
+}
+
+
+function pessoa (nome, idade) { 
+    if(idade >= 18)
+    return (nome + ", pode dirigir")
+}
+
+console.log(pessoa(prompt("Digite seu nome"), Number(prompt("Digite sua idade"))));
+
+
+let condicao = false
+if (condicao) {
+    console.log ('entrei no if')
+
+
+} else {
+    console.log ('entrei no else')
+}
+let num1 = Number (prompt("digite um numero"))
+let num2 = Number (prompt("digite um numero"))
+
+function compara (num1, num2) {
+    if (num1 === num2){
+        return ("iguais")
+    } else {
+        return ("diferentes")
+    }
+    
+}
+
+
+
+
+function compara (n1, n1) {
+ if (n1 > n2) {
+    return "maior"
+
+ } else if (n1 === n2) {
+    return "igual"
+ } else {
+    return "menor"
+ }
+       
+}
+
+console.log (compara(Number(prompt("digite um numero"))), (Number(prompt("digite outro numero"))))
+
+
+
+
+let pais
+switch (pais) {
+    case 'Brasil' :
+        console.log ('brasileiro')
+        break
+    case 'EUA':
+        console.log ('Norte Americano')
+        break
+    case 'Inglaterra':
+        break 
+
+    default:
+        console.log('nacionalidade nao encontrada')
+        break;
+}
+
+
+let pokemon = prompt("Fale um pokemon")
+switch (pokemon) {
+    case 'Bulbassauro' :
+        console.log ('Planta e Veneno')
+        break
+    case 'Charmander':
+        console.log ('Fogo')
+        break
+    case 'Squirtle':
+        console.log ('Agua')
+        break 
+
+    default:
+        console.log('pokemon nao encontrado')
+        break;
+}
+*/
