@@ -112,3 +112,14 @@ switch (pokemon) {
         break;
 }
 */
+let concluidoA = prompt("voce concluiu o ensino medio?")
+let idadeA = prompt("voce tem mais de 18 anos?")
+let cursandoA = prompt("voce cursa faculdade?")
+
+        function dados (concluido, idade, cursando){
+             if (concluido === "sim" && idade === "sim" && cursando === "nao") {
+                return "Voce pode estudar na faculdade"
+             }
+        }
+
+console.log (dados(concluidoA, idadeA, cursandoA));
